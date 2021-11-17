@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com video</title>
+    <link rel="shortcut icon" href="Ex9 - Video/media/video.mp4" type="image/x-icon">
+
+</head>
+<h1>Inserindo videos hospedados localmente</h1>
+<p>Este video está hospedado no meu próprio servidor.
+</p>
+
+<!--<video src="Ex9 - Video/media/video.mp4 " controls width="420px" type="video/mp4"></video> 
+-->
+
+<video controls width="430" poster="Ex9 - Video/media/ym.png" >
+    <source src="Ex9 - Video/media/video.mp4" type="video/mp4">
+    <source src="Ex9 - Video/media/video.webm" type="video/webm">
+    <source src="Ex9 - Video/media/video.mkv" type="video/mkv">
+    <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+</video>
+
+<!--Hospedagem interna gera gasto maior pare o cliente, pois os dados baixados[utilizados] são descontados da assinatura da hospedagem.
+//Processo utilizado acima, faz com que o navegador tente executar o video nos formatos aprsentados de cima para baixo e caso não suporte nenhum dos formatos, apresentará o paragrafo. -->
+
+<h1>Trabalhando com videos hospedados externamente:</h1>
+<h2>Youtube:</h2>
+<!--Ruim pq não tem como privar o video-->
+<iframe width="430" height="315" src="https://www.youtube.com/embed/eRJyYfAq2tk" title="YouTube video player" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Vimeo:</h2>
+<!--Ruim pq envolve assinatura-->
+<iframe src="https://player.vimeo.com/video/197093965?autoplay=1" width="430" height="360" frameborder="0" ></iframe>
+
+<audio src=""></audio>
+
+
+
+
+
+<body>
+    
+</body>
+</html>
